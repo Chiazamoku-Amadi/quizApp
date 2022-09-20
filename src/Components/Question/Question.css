@@ -1,0 +1,28 @@
+.options {
+  display: flex;
+  gap: 1em;
+  margin: 0.5em 0;
+}
+
+.selected {
+  background-color: #4d79ff;
+  color: #fff;
+}
+
+#correct.option {
+  background-color: #94d7a2;
+  border: 1px solid #94d7a2;
+  color: #fff;
+}
+
+#incorrect.option.selected {
+  background-color: #ff8080;
+  border: 1px solid #ff8080;
+  color: #fff;
+}
+
+/* #not-selected.option {
+  background-color: #ffa500;
+  border: 1px solid #ffa500;
+  color: #fff;
+} */

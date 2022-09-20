@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import question from "../../assets/question.svg";
 
-function Landing() {
+function Landing({ start }) {
   return (
     <section className="landing-page">
       <img className="landing-image" src={question} alt="" />
@@ -12,7 +12,7 @@ function Landing() {
           When you are ready, click the button below to begin your quiz.
           Goodluck!
         </p>
-        <button>Start Quiz</button>
+        <button onClick={start}>Start Quiz</button>
       </div>
     </section>
   );
